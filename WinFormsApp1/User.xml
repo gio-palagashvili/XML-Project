@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User>
+    <id>1</id>
+    <name>gio</name>
+    <password>lmao</password>
+    <course>js</course>
+    <status>student</status>
+  </User>
+  <User>
+    <id>2</id>
+    <name>sa</name>
+    <password>sa</password>
+    <course>c#</course>
+    <status>student</status>
+  </User>
+  <User>
+    <id>3</id>
+    <name>saa</name>
+    <password>sa</password>
+    <course>c#</course>
+    <status>teacher</status>
+  </User>
+</Users>

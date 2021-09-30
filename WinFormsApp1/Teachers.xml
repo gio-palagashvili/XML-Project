@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Teachers>
+  <Teacher>
+    <id>3</id>
+    <name>saa</name>
+    <course>c#</course>
+    <students>
+      <Student>1</Student>
+      <Student>2</Student>
+    </students>
+  </Teacher>
+</Teachers>

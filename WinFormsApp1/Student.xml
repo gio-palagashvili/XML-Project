@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student>
+    <id>1</id>
+    <name>gio</name>
+    <grades>
+      <grade>1</grade>
+      <grade>2</grade>
+    </grades>
+    <course>js</course>
+  </Student>
+  <Student>
+    <id>2</id>
+    <name>sa</name>
+    <grades>
+      <grade>1</grade>
+      <grade>2</grade>
+    </grades>
+    <course>c#</course>
+  </Student>
+</Students>
