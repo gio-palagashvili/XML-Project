@@ -52,11 +52,67 @@ namespace WinFormsApp1
             
             return true;
         }
-        
+        private void ManageForms(bool prop) {
+            if (prop)
+            {
+                textBox4.Show();
+                label5.Show();
+
+                label4.Show();
+                textBox3.Show();
+
+                label6.Show();
+                textBox5.Show();
+
+                label8.Show();
+                comboBox1.Show();
+
+                label9.Show();
+                comboBox2.Show();
+                button1.Show();
+                label10.Show();
+
+
+                textBox1.Hide();
+                textBox2.Hide();
+                button2.Hide();
+                register.Hide();
+                label1.Hide();
+                label2.Hide();
+            }
+            else
+            {
+                textBox4.Hide();
+                label5.Hide();
+
+                label4.Hide();
+                textBox3.Hide();
+
+                label6.Hide();
+                textBox5.Hide();
+
+                label8.Hide();
+                comboBox1.Hide();
+
+                label9.Hide();
+                comboBox2.Hide();
+                button1.Hide();
+                label10.Hide();
+
+                textBox1.Show();
+                textBox2.Show();
+                button2.Show();
+                register.Show();
+                label1.Show();
+                label2.Show();
+            }
+
+        }
         
         private void Form1_Load(object sender, EventArgs e)
         { 
         SetUsers();
+        ManageForms(false);
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -182,6 +238,16 @@ namespace WinFormsApp1
                 ));
             xDocument.Save("C:\\Users\\Gio\\source\\repos\\WinFormsApp1\\WinFormsApp1\\Teachers.xml");
 
+        }
+
+        private void register_Click(object sender, EventArgs e)
+        {
+            ManageForms(true); 
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            ManageForms(false);
         }
     }
 }
